@@ -32,8 +32,8 @@ diff-compare is a Javascript library that provides:
 var diff = require('diff-compare');
 
 var adjustedText = diff.build({
-  baseText: baseText,
-  newText: newText
+  base: baseText,
+  compare: newText
 })
 
 // {
